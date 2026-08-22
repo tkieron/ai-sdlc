@@ -135,22 +135,23 @@ A material release becomes Done only after sufficient evidence confirms that it 
 
 ## Full specification
 
-The detailed specification currently lives in Confluence and will be made public.
+The full public AI-SDLC specification is published as a GitHub Pages documentation site:
 
-**AI-SDLC Home:**  
-https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5537793/AI-SDLC+Home
+**AI-SDLC Documentation:**  
+https://tkieron.github.io/ai-sdlc/
 
 Key sections:
 
-- Principles & Governance: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5603329/00+Principles+Governance
-- Level 1 — Development Landscape: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5373961/01+Level+1+Development+Landscape
-- Level 2 — Development Process Map: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5636097/02+Level+2+Development+Process+Map
-- Level 3 — Process Specifications: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5668865
-- Level 4 — Engineering Playbooks: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5308418/04+Level+4+Engineering+Playbooks
-- Risk Model R0–R4: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5701633/05+Risk+Model+R0+R4
-- Metrics & Evaluation: https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5701653/06+Metrics+Evaluation
+- Principles & Governance: https://tkieron.github.io/ai-sdlc/00-principles/
+- Level 1 — Development Landscape: https://tkieron.github.io/ai-sdlc/01-landscape/
+- Level 2 — Development Process Map: https://tkieron.github.io/ai-sdlc/02-process-map/
+- Level 3 — Process Specifications: https://tkieron.github.io/ai-sdlc/03-process-specifications/
+- Level 4 — Engineering Playbooks: https://tkieron.github.io/ai-sdlc/04-playbooks/
+- Risk Model R0–R4: https://tkieron.github.io/ai-sdlc/05-risk-model/
+- Metrics & Evaluation: https://tkieron.github.io/ai-sdlc/06-metrics/
+- Change Log & Decision Records: https://tkieron.github.io/ai-sdlc/07-decisions/
 
-> **Note:** public access to the Confluence specification may still be pending while v0.1 is being prepared.
+The GitHub repository remains the technical source and contribution entry point; the Pages site is the readable public specification.
 
 ---
 
