@@ -5,6 +5,11 @@ repo_url: https://github.com/tkieron/ai-sdlc
 repo_name: tkieron/ai-sdlc
 edit_uri: edit/main/docs/
 
+exclude_docs: |
+  framework-overview.md
+  manifesto.md
+  superpowers/**
+
 theme:
   name: material
   features:
