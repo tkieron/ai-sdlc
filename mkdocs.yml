@@ -1,0 +1,85 @@
+site_name: AI-SDLC
+site_description: Human-owned, AI-augmented software delivery framework
+site_url: https://tkieron.github.io/ai-sdlc/
+repo_url: https://github.com/tkieron/ai-sdlc
+repo_name: tkieron/ai-sdlc
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - 00 Principles & Governance: 00-principles/index.md
+  - 01 Level 1 – Development Landscape: 01-landscape/index.md
+  - 02 Level 2 – Development Process Map: 02-process-map/index.md
+  - 03 Level 3 – Process Specifications:
+      - Overview: 03-process-specifications/index.md
+      - 03.01 Idea & Discovery: 03-process-specifications/03.01-idea-discovery.md
+      - 03.02 Analysis: 03-process-specifications/03.02-analysis.md
+      - 03.03 Architecture: 03-process-specifications/03.03-architecture.md
+      - 03.04 Refinement: 03-process-specifications/03.04-refinement.md
+      - 03.05 Planning: 03-process-specifications/03.05-planning.md
+      - 03.06 Test Design: 03-process-specifications/03.06-test-design.md
+      - 03.07 Implementation Design: 03-process-specifications/03.07-implementation-design.md
+      - 03.08 Implementation: 03-process-specifications/03.08-implementation.md
+      - 03.09 Review: 03-process-specifications/03.09-review.md
+      - 03.10 Verification & Acceptance: 03-process-specifications/03.10-verification-acceptance.md
+      - 03.11 Release & Deployment: 03-process-specifications/03.11-release-deployment.md
+      - 03.12 Production Feedback: 03-process-specifications/03.12-production-feedback.md
+  - 04 Level 4 – Engineering Playbooks:
+      - Overview: 04-playbooks/index.md
+      - Development: 04-playbooks/development.md
+      - Testing: 04-playbooks/testing.md
+      - Review:
+          - Overview: 04-playbooks/review/index.md
+          - Risk-Based Review Process: 04-playbooks/review/risk-based-review-process.md
+          - Automated Pre-Flight: 04-playbooks/review/automated-pre-flight.md
+          - Human Pre-Flight: 04-playbooks/review/human-pre-flight.md
+          - Code Review Book & Checklist: 04-playbooks/review/code-review-book.md
+          - AI Review Agent Instructions: 04-playbooks/review/ai-review-agent.md
+          - Author IDE Review Checklist: 04-playbooks/review/author-ide-review.md
+          - Pair Review & Defence: 04-playbooks/review/pair-review-defence.md
+          - Review Guide – Java: 04-playbooks/review/guide-java.md
+          - Review Guide – Spring: 04-playbooks/review/guide-spring.md
+          - Review Guide – Database: 04-playbooks/review/guide-database.md
+          - Review Guide – Messaging: 04-playbooks/review/guide-messaging.md
+          - Outputs:
+              - AI Review Findings: 04-playbooks/review/output-ai-review-findings.md
+              - Human Review Record: 04-playbooks/review/output-human-review-record.md
+              - Pair Review & Defence Record: 04-playbooks/review/output-pair-review-defence-record.md
+              - Review Decision Record: 04-playbooks/review/output-review-decision-record.md
+      - Release: 04-playbooks/release.md
+      - AI Agents & Skills: 04-playbooks/ai-agents-skills.md
+  - 05 Risk Model R0–R4: 05-risk-model/index.md
+  - 06 Metrics & Evaluation: 06-metrics/index.md
+  - 07 Change Log & Decision Records: 07-decisions/index.md
