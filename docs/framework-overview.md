@@ -170,8 +170,6 @@ Exact definitions, baselines and success criteria remain part of the v0.1 valida
 
 ## Full specification
 
-The detailed and evolving specification is maintained in Confluence:
+The detailed and evolving specification is published on GitHub Pages:
 
-https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5537793/AI-SDLC+Home
-
-Public access may still be pending.
+https://tkieron.github.io/ai-sdlc/
