@@ -140,6 +140,6 @@ A process that produces software faster while progressively removing system unde
 
 **Human ownership always remains. AI participation expands where intent, constraints and validation become explicit — and contracts again where risk requires stronger human control.**
 
-For the full and evolving constitutional specification, see the public Confluence documentation once enabled:
+For the full and evolving constitutional specification, see:
 
-https://tomasz-kieronski.atlassian.net/wiki/spaces/AISDLC/pages/5603329/00+Principles+Governance
+https://tkieron.github.io/ai-sdlc/00-principles/
